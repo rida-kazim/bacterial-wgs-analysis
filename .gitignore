@@ -1,0 +1,24 @@
+# Raw sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Large analysis outputs
+wgs_results/
+spades_output/
+quast_results/
+prokka_results/
+
+# Generated reports
+*.html
+*.json
+*.zip
+
+# Temporary and log files
+*.tmp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
